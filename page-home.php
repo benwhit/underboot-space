@@ -16,11 +16,11 @@ get_header(); ?>
 
 	<div class="wrapper" id="page-wrapper">
 	    
-	    <div  id="content" class="container">
+	    <div  id="content" class="container-fluid">
 
 	        <div class="row">
 	        
-	    	   <div id="primary" class="col-md-12 content-area">
+	    	   <div id="primary" class="col-md-12 content-area no-padding">
 	           
 	                 <main id="main" class="site-main" role="main">
 
@@ -28,12 +28,12 @@ get_header(); ?>
 
 	                        <?php get_template_part( 'loop-templates/content', 'page' ); ?>
 
-	                        <?php
+	                        <?php/*
 	                            // If comments are open or we have at least one comment, load up the comment template
 	                            if ( comments_open() || get_comments_number() ) :
 	                                comments_template();
 	                            endif;
-	                        ?>
+	                        */?>
 
 	                    <?php endwhile; // end of the loop. ?>
 
